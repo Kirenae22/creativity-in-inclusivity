@@ -1,0 +1,109 @@
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+  color: #a3f7b5; 
+  text-align: center;
+  font-family: 'hind', bold;
+  font-style: normal;
+  font-size: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+#natural {
+  color: #a3f7b5; 
+    text-align: center;
+    font-family: 'hind', sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    margin-top: 100px;
+    background-color: #FBEEA2;
+    border: 3px solid #C2D3DB;
+    border-radius: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#variety {
+  color: #a3f7b5; 
+    text-align: center;
+    font-family: 'hind', sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+#brush {
+  color: #a3f7b5; 
+    text-align: center;
+    font-family: 'hind', sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    margin-top: 100px;
+    margin-right: 5px;
+    background-color: #FBEEA2;
+    border: 3px solid #C2D3DB;
+    border-radius: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#lists {
+    color: #9494B8;
+    font-family: 'hind', sans-serif;
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#tell {
+    color: #B8899D;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-weight: 400;
+}
+
+#live {
+  color: #a3f7b5; 
+    text-align: center;
+    font-family: 'hind', sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    margin-top: 120px;
+    margin-bottom: 3%;
+}
+
+p {
+    color: #7778a4;
+    font-family: 'hind', sans-serif;
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 160%;
+    margin-top: 70px;
+    margin-bottom: 0%;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+body {
+  background-color: white;
+  background-image: url("https://www.pngkit.com/png/full/101-1013962_2-bp-blogspot-com-w1bs9pdw5hc-td00ybq1dii-aaaaaaaaaw0-number.png");
+}
+
+.group {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 160%;
+  font-weight: bold;
+  color: #7778a4;
+  font-family: 'hind', sans-serif;
+}
