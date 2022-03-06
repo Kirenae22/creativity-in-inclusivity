@@ -1,16 +1,26 @@
 body {
-    background-color: #ffffff;
+    background-color: #F9D9B2;
 }
 
 h1 {
   color: #a3f7b5; 
   text-align: center;
-  font-family: 'hind', bold;
+  font-family: hind, sans-serif;
   font-style: normal;
   font-size: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-weight: 700;
+  font-weight: bold;
+}
+img {
+  border-radius: 400px;
+ justify-content: space-around;
+ justify-content: space-evenly;
+ width: 50%;
+ height: 50%;
+ margin-top: 40px;
+ border: 5px solid #ffffff;
+ flex-direction: row;
 }
 
 #natural {
@@ -20,11 +30,6 @@ h1 {
     font-style: normal;
     font-size: 80px;
     margin-top: 100px;
-    background-color: #FBEEA2;
-    border: 3px solid #C2D3DB;
-    border-radius: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 #variety {
@@ -43,12 +48,6 @@ h1 {
     font-style: normal;
     font-size: 80px;
     margin-top: 100px;
-    margin-right: 5px;
-    background-color: #FBEEA2;
-    border: 3px solid #C2D3DB;
-    border-radius: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 #lists {
@@ -61,9 +60,9 @@ h1 {
 
 #tell {
     color: #B8899D;
-    font-family: 'lato', sans-serif;
+    font-family: 'hind', sans-serif;
     font-style: italic;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: lighter;
     margin-top: 80px;
     margin-left: 80px;
@@ -80,21 +79,38 @@ h1 {
     margin-bottom: 3%;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-evenly;
+  border-radius: 50px;
+}
+
+
 p {
-    color: #7778a4;
+    color: rgb(141, 84, 173);
     font-family: 'hind', sans-serif;
     font-style: normal; 
+    font-size: 150%;
+    padding-top: 4cm;
+    text-align: center;
+    width: 80%
+    margin: 0 auto;
     font-weight: bold;
-    font-size: 160%;
-    margin-top: 70px;
-    margin-bottom: 0%;
-    margin-right: 40px;
-    margin-left: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: white;
-  background-image: url("https://www.pngkit.com/png/full/101-1013962_2-bp-blogspot-com-w1bs9pdw5hc-td00ybq1dii-aaaaaaaaaw0-number.png");
+background-color: #ffffff;
+background-image: url("https://www.teahub.io/photos/full/52-523129_1200x2133-colorful-clouds-pink-clouds-cloud-wallpaper-iphone.jpg");
+image-rendering: -webkit-optimize-contrast;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .group {
@@ -106,4 +122,84 @@ body {
   font-weight: bold;
   color: #7778a4;
   font-family: 'hind', sans-serif;
+}
+
+.container {  
+  color: #a3f7b5;
+  display: flex;  
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  background: none;
+  font-family: 'Ultra', serif;
+  padding: 60px;
+}
+
+@font-face {
+  font-family: 'Ultra', serif;
+  src: url(Calfinedemo.otf);
+}
+
+div {
+  font-family: 'Ultra', serif;
+}
+
+
+
+nav a:hover {
+  color: #90E0EF;
+  text-decoration: underline solid 10px;
+  font-family: 'Ultra', serif
+}
+nav a:link{
+  color: #a3f7b5;;
+  text-decoration: none;
+  text-align: center;
+}
+.container-xs {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  background-size: 150px;
+}
+
+.hairstyles {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 50px; */
+  padding: 60px;
+  /* overflow: hidden; */
+}
+
+.hairstyles div {
+  float: auto;
+  width: 50%;
+  text-align: center;
+  padding: 40px 20px 50px 20px;
+}
+
+.hairstyle_1 {
+  background-color: #dabac8;
+}
+
+
+.hairstyle_2 {
+  background-color: #a1bee2;
+}
+
+
+.hairstyle_3 {
+  background-color: #c699cf;
+}
+
+.hairstyles blockquote {
+
+  font-family: 'Ultra', serif;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 700;
+  max-width: 300px;
+  margin: 15px auto 10px auto;
+  color: #333474;
 }
