@@ -21,6 +21,8 @@ img {
  margin-top: 40px;
  border: 5px solid #ffffff;
  flex-direction: row;
+ position: relative;
+ top: 100px;
 }
 
 #natural {
@@ -30,6 +32,7 @@ img {
     font-style: normal;
     font-size: 80px;
     margin-top: 100px;
+    padding-top: 100px;
 }
 
 #variety {
@@ -59,8 +62,8 @@ img {
 }
 
 #tell {
-    color: #B8899D;
-    font-family: 'hind', sans-serif;
+    color: #f038ff;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-size: 50px;
     font-weight: lighter;
@@ -75,7 +78,7 @@ img {
     font-family: 'hind', sans-serif;
     font-style: normal;
     font-size: 80px;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 3%;
 }
 
@@ -88,20 +91,22 @@ section {
 
 
 p {
-    color: rgb(141, 84, 173);
-    font-family: 'hind', sans-serif;
+    color: #645dd7;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal; 
-    font-size: 150%;
+    font-size: 180%;
     padding-top: 4cm;
     text-align: center;
     width: 80%
     margin: 0 auto;
+    margin-left: 90px;
+    margin-right: 80px;
     font-weight: bold;
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  position: relative;
+  bottom: 10px;
 }
 
 body {
@@ -111,6 +116,7 @@ image-rendering: -webkit-optimize-contrast;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+opacity: 2.20;
 }
 
 .group {
@@ -128,21 +134,22 @@ background-repeat: no-repeat;
   color: #a3f7b5;
   display: flex;  
   justify-content: space-around;
-  font-weight: bold;
-  font-size: 35px;
+  font-weight: bolder;
+  font-size: 30px;
   text-align: center;
   background: none;
-  font-family: 'Ultra', serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 60px;
+  padding-top: 150px;
 }
 
 @font-face {
-  font-family: 'Ultra', serif;
+  font-family: 'Montserrat', sans-serif;
   src: url(Calfinedemo.otf);
 }
 
 div {
-  font-family: 'Ultra', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -150,7 +157,7 @@ div {
 nav a:hover {
   color: #90E0EF;
   text-decoration: underline solid 10px;
-  font-family: 'Ultra', serif
+  font-family: 'Montserrat', sans-serif
 }
 nav a:link{
   color: #a3f7b5;;
@@ -180,22 +187,22 @@ nav a:link{
 }
 
 .hairstyle_1 {
-  background-color: #dabac8;
+  background-color: #ca7df9;
 }
 
 
 .hairstyle_2 {
-  background-color: #a1bee2;
+  background-color: #70d6ff;
 }
 
 
 .hairstyle_3 {
-  background-color: #c699cf;
+  background-color: #f896d8;
 }
 
 .hairstyles blockquote {
 
-  font-family: 'Ultra', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   line-height: 1.15;
   font-weight: 700;
